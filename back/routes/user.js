@@ -7,6 +7,7 @@ const hasRole = require("../middlewares/hasRole");
 
 const router = express.Router({ mergeParams: true });
 
+////для дальнейшей разработки
 router.get("/", authenticated, hasRole([ROLES.ADMIN]), async (req, res) => {
   try {
     const users = await getUsers();

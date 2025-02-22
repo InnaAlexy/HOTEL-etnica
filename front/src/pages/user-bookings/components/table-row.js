@@ -3,7 +3,14 @@ import { Button, Icon } from '../../../component';
 import { correctStatusName } from '../../../utils';
 import styles from '../user-bookings.module.css';
 
-export const TableRow = ({ roomId, title, date, status, onBookingRemove }) => {
+export const TableRow = ({
+	roomId,
+	maxCapacity,
+	title,
+	date,
+	status,
+	onBookingRemove,
+}) => {
 	const [changeContent, setChangeContent] = useState(false);
 	const dayStart = date[0];
 	const dayEnd = date[date.length - 1];
@@ -15,7 +22,7 @@ export const TableRow = ({ roomId, title, date, status, onBookingRemove }) => {
 				onMouseOver={() => setChangeContent(!changeContent)}
 				onMouseOut={() => setChangeContent(!changeContent)}
 			>
-				{changeContent ? `номер:${roomId}` : title}
+				{changeContent ? `Максимум ${maxCapacity} чел.` : title}
 			</div>
 
 			<div className={styles.dateStartColumn}>{dayStart}</div>

@@ -33,20 +33,17 @@ router.get("/my", authenticated, async (req, res) => {
   }
 });
 
-router.get(
-  "/statuses",
-  authenticated,
-  hasRole([ROLES.ADMIN]),
-  async (req, res) => {
-    try {
-      const statuses = await getStatuses();
+////для дальнейшей разработки
+router.get("/statuses", authenticated, (req, res) => {
+  try {
+    const statuses = getStatuses();
 
-      res.send({ error: null, data: statuses });
-    } catch (e) {
-      res.send({ error: e.message });
-    }
+    res.send({ error: null, data: statuses });
+  } catch (e) {
+    res.send({ error: e.message });
   }
-);
+});
+////
 
 router.patch(
   "/:id",

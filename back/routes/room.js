@@ -53,6 +53,7 @@ router.post("/:id/booking", authenticated, async (req, res) => {
   }
 });
 
+////добавление номера(для дальнейшей разработки)
 router.post("/", authenticated, hasRole([ROLES.ADMIN]), async (req, res) => {
   try {
     const newRoom = await addRoom({
@@ -68,5 +69,6 @@ router.post("/", authenticated, hasRole([ROLES.ADMIN]), async (req, res) => {
     res.send({ error: e.message });
   }
 });
+////
 
 module.exports = router;

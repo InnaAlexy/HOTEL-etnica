@@ -8,6 +8,7 @@ export const TableRow = ({
 	id,
 	title,
 	roomId,
+	maxCapacity,
 	userLogin,
 	date,
 	status,
@@ -45,7 +46,7 @@ export const TableRow = ({
 				onMouseOver={() => setTitleContent(!titleContent)}
 				onMouseOut={() => setTitleContent(!titleContent)}
 			>
-				{titleContent ? `номер:${roomId}` : title}
+				{titleContent ? `Максимум ${maxCapacity} чел.` : title}
 			</div>
 			<div className={styles.dateStartColumn}>{dayStart}</div>
 			<div className={styles.dateEndColumn}>{dayEnd}</div>

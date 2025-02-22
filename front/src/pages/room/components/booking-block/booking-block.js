@@ -91,7 +91,9 @@ export const BookingBlock = ({ actualRoomId }) => {
 							Проверить доступность дат
 						</Button>
 					) : (
-						<div className={styles.buttonPlace}></div>
+						<div className={styles.buttonPlace}>
+							Выберите желаемые даты бронирования.
+						</div>
 					)}
 				</div>
 				{toutched && isDateBusy ? (

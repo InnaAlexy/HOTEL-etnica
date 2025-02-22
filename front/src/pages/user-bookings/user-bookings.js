@@ -75,6 +75,7 @@ export const UserBookings = () => {
 								id={id}
 								key={id}
 								roomId={room.id}
+								maxCapacity={room.maxCapacity}
 								title={room.title}
 								date={date}
 								status={status}

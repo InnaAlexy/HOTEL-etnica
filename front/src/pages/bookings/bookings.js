@@ -62,6 +62,7 @@ export const Bookings = () => {
 						key={id}
 						id={id}
 						roomId={room.id}
+						maxCapacity={room.maxCapacity}
 						title={room.title}
 						userLogin={author.login}
 						date={date}
