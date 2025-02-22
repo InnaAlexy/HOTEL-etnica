@@ -1,0 +1,24 @@
+.conteiner {
+	background-color: rgba(13, 14, 13, 0.723);
+	min-height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 18px;
+}
+
+.welcomeMessage {
+	padding: 0 0 10px 40px;
+}
+
+.buttonArea {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	width: 550px;
+}
+
+.buttonArea :last-child {
+	width: 250px;
+}

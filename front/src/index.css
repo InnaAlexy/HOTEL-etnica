@@ -1,0 +1,33 @@
+@import url('fonts/font-awesome.css');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: url('https://bogatyr.club/uploads/posts/2023-03/1678923642_bogatyr-club-p-fon-dlya-otkritki-s-lesom-foni-oboi-4.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Bellota', system-ui;
+	color: rgba(155, 172, 156, 0.925);
+}
+
+body a {
+	text-decoration: none;
+	color: rgb(123, 139, 139);
+}
+
+html,
+body,
+#root {
+	height: 100%;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

@@ -1,0 +1,67 @@
+.conteiner {
+	display: flex;
+	width: 744px;
+	margin: auto;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 30px;
+}
+
+.tableConteiner {
+	display: flex;
+	width: 100%;
+	margin: auto;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	font-size: 18px;
+	background-color: rgba(13, 13, 13, 0.645);
+}
+
+.titleRow {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding: 5px 0;
+}
+
+.tableRow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.tableRow div {
+	display: flex;
+	border: 1px solid grey;
+	justify-content: center;
+	padding: 10px 0;
+}
+
+.tableRow :last-child {
+	border: none;
+}
+
+.tableRow :last-child :hover {
+	cursor: pointer;
+}
+
+.titleColumn {
+	width: 232px;
+}
+
+.dateStartColumn {
+	width: 110px;
+}
+
+.dateEndColumn {
+	width: 110px;
+}
+
+.statusColumn {
+	width: 230px;
+}
+
+button {
+	align-items: center;
+	margin: 0 5px 0 5px;
+}

@@ -1,0 +1,90 @@
+.conteiner {
+	display: flex;
+	width: 942px;
+	margin: auto;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 30px;
+}
+
+.tableConteiner {
+	display: flex;
+	width: 100%;
+	margin: auto;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	font-size: 18px;
+	background-color: rgba(13, 13, 13, 0.645);
+}
+.tableRow {
+	display: flex;
+	align-items: center;
+}
+
+.titleRow {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.titleRow :last-child {
+	padding: 10px 0;
+	width: 320px;
+}
+
+.tableRow div {
+	display: flex;
+	border: 1px solid grey;
+	justify-content: center;
+}
+
+.tableRow :last-child {
+	border: none;
+}
+
+.tableRow :last-child div {
+	margin: 5px;
+}
+
+.loginColumn {
+	width: 140px;
+	padding: 10px 0;
+}
+
+.titleColumn {
+	width: 230px;
+	padding: 10px 0;
+}
+
+.dateStartColumn {
+	width: 110px;
+	padding: 10px 0;
+}
+
+.dateEndColumn {
+	width: 110px;
+	padding: 10px 0;
+}
+
+.statusColumn {
+	width: 235px;
+}
+
+select {
+	font: inherit;
+	letter-spacing: inherit;
+	word-spacing: inherit;
+	height: 43px;
+	width: 235px;
+	background-color: #ffffff41;
+}
+
+.disable {
+	width: 50px;
+	border-radius: 4px;
+}
+
+.iconRow button {
+	margin: 5px;
+}

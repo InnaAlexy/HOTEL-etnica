@@ -1,0 +1,51 @@
+.hederContent {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 1000px;
+	height: 100px;
+	padding: 20px 20px 0;
+	box-shadow: 0px -2px 17px #636463;
+	background-color: #0b3340;
+}
+
+.userControlConteiner {
+	display: flex;
+	justify-content: flex-end;
+	width: 300px;
+	padding-top: 15px;
+}
+
+.userControlConteiner div {
+	padding-right: 10px;
+	margin-bottom: 0;
+}
+.userControlConteiner a {
+	padding-right: 10px;
+}
+
+.signInUpButtons {
+	width: 250px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 15px;
+}
+
+.icons {
+	display: flex;
+	padding-top: 4px;
+}
+
+.login {
+	display: flex;
+	align-items: center;
+	padding: 0 10px 0 2px;
+}
+
+.buttomIcon :hover {
+	cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.conteiner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.roomsList {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 15px;
+}
+
+.noPostsFound {
+	font-size: 18px;
+	margin-top: 40px;
+	text-align: center;
+}

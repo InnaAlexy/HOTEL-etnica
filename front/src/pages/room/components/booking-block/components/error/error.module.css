@@ -1,0 +1,48 @@
+.errorConteiner {
+	display: flex;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.827);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+
+.error {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 400px;
+	height: 160px;
+	background-color: #060c0d;
+	position: fixed;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border: 2px solid #8fa091;
+}
+
+.closeButton {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	padding-right: 5px;
+}
+
+.closeButton div {
+	cursor: pointer;
+}
+
+.errorMessage {
+	display: flex;
+	text-align: center;
+	padding: 10px 7px 23px 7px;
+	font-size: 18px;
+}
