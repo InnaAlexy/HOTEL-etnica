@@ -1,5 +1,5 @@
 export function request(url, method, data) {
-	return fetch(`http://localhost:3002/api/${url}`, {
+	return fetch(`http://localhost:3005/api${url}`, {
 		headers: {
 			'content-type': 'application/json',
 		},

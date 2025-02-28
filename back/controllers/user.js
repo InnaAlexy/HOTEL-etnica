@@ -38,20 +38,6 @@ function getUser(id) {
   return User.findById(id);
 }
 
-//get roles
-// function getRoles() {
-//   return [
-//     { id: ROLES.ADMIN, name: "Admin" },
-//     { id: ROLES.GEST, name: "Gest" },
-//     { id: ROLES.VIEWER, name: "Viewer" },
-//   ];
-// }
-
-//delete user
-// function deleteUser(id) {
-//   return User.deleteOne({ _id: id });
-// }
-
 module.exports = {
   register,
   login,

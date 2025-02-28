@@ -15,7 +15,6 @@ export const Header = () => {
 	const login = useSelector(selectUserLogin);
 
 	const isAdmin = roleId === ROLE.ADMIN;
-	console.log(roleId, 'role');
 
 	const onLogout = () => {
 		dispatch(logout());

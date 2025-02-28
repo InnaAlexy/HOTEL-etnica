@@ -15,8 +15,6 @@ import { useDispatch } from 'react-redux';
 import { useLayoutEffect } from 'react';
 import { setUser } from './actions';
 
-//подготовка окружения
-
 function App() {
 	const dispatch = useDispatch();
 
